@@ -1,0 +1,66 @@
+.
+├── docs
+│   ├── PROMPT_MAESTRO.md
+│   └── RESPUESTA_IA_COMANDO.md
+├── public
+│   └── .gitkeep
+├── src
+│   ├── assets
+│   │   └── .gitkeep
+│   ├── components
+│   │   ├── inventory
+│   │   │   ├── ProductList.tsx
+│   │   │   └── index.ts
+│   │   ├── layout
+│   │   │   └── index.ts
+│   │   ├── ui
+│   │   │   └── index.ts
+│   │   ├── README.md
+│   │   └── index.ts
+│   ├── config
+│   │   ├── README.md
+│   │   ├── env.ts
+│   │   └── index.ts
+│   ├── context
+│   │   ├── README.md
+│   │   └── index.ts
+│   ├── hooks
+│   │   ├── README.md
+│   │   ├── index.ts
+│   │   └── useInventory.ts
+│   ├── pages
+│   │   ├── InventoryPage.tsx
+│   │   ├── README.md
+│   │   └── index.ts
+│   ├── services
+│   │   ├── supabase
+│   │   │   ├── README.md
+│   │   │   ├── client.ts
+│   │   │   └── index.ts
+│   │   ├── README.md
+│   │   ├── index.ts
+│   │   └── inventoryService.ts
+│   ├── types
+│   │   ├── README.md
+│   │   ├── index.ts
+│   │   └── inventory.ts
+│   ├── utils
+│   │   ├── README.md
+│   │   └── index.ts
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .env.example
+├── .gitignore
+├── .oxlintrc.json
+├── ARCHITECTURE.md
+├── README.md
+├── index.html
+├── package.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+17 directories, 47 files

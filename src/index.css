@@ -1,0 +1,3 @@
+/* Estilos globales mínimos. Los estilos por componente viven junto al componente. */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; }

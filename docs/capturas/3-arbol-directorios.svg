@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400" font-family="Menlo,Consolas,monospace" font-size="14">
+<rect width="900" height="1400" rx="10" fill="#1e1e2e"/><rect width="900" height="34" rx="10" fill="#313244"/><rect y="20" width="900" height="14" fill="#313244"/>
+<circle cx="20" cy="17" r="6" fill="#f38ba8"/><circle cx="40" cy="17" r="6" fill="#f9e2af"/><circle cx="60" cy="17" r="6" fill="#a6e3a1"/>
+<text x="450.0" y="22" fill="#a6adc8" text-anchor="middle" font-size="12">bash — tree</text>
+<text x="18" y="58" fill="#a6e3a1" xml:space="preserve">$ tree -a -I &#x27;node_modules|dist|.git&#x27; --dirsfirst</text>
+<text x="18" y="78" fill="#cdd6f4" xml:space="preserve">.</text>
+<text x="18" y="98" fill="#cdd6f4" xml:space="preserve">├── docs</text>
+<text x="18" y="118" fill="#cdd6f4" xml:space="preserve">│   ├── PROMPT_MAESTRO.md</text>
+<text x="18" y="138" fill="#cdd6f4" xml:space="preserve">│   └── RESPUESTA_IA_COMANDO.md</text>
+<text x="18" y="158" fill="#cdd6f4" xml:space="preserve">├── public</text>
+<text x="18" y="178" fill="#cdd6f4" xml:space="preserve">│   └── .gitkeep</text>
+<text x="18" y="198" fill="#cdd6f4" xml:space="preserve">├── src</text>
+<text x="18" y="218" fill="#cdd6f4" xml:space="preserve">│   ├── assets</text>
+<text x="18" y="238" fill="#cdd6f4" xml:space="preserve">│   │   └── .gitkeep</text>
+<text x="18" y="258" fill="#cdd6f4" xml:space="preserve">│   ├── components</text>
+<text x="18" y="278" fill="#cdd6f4" xml:space="preserve">│   │   ├── inventory</text>
+<text x="18" y="298" fill="#cdd6f4" xml:space="preserve">│   │   │   ├── ProductList.tsx</text>
+<text x="18" y="318" fill="#cdd6f4" xml:space="preserve">│   │   │   └── index.ts</text>
+<text x="18" y="338" fill="#cdd6f4" xml:space="preserve">│   │   ├── layout</text>
+<text x="18" y="358" fill="#cdd6f4" xml:space="preserve">│   │   │   └── index.ts</text>
+<text x="18" y="378" fill="#cdd6f4" xml:space="preserve">│   │   ├── ui</text>
+<text x="18" y="398" fill="#cdd6f4" xml:space="preserve">│   │   │   └── index.ts</text>
+<text x="18" y="418" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="438" fill="#cdd6f4" xml:space="preserve">│   │   └── index.ts</text>
+<text x="18" y="458" fill="#cdd6f4" xml:space="preserve">│   ├── config</text>
+<text x="18" y="478" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="498" fill="#cdd6f4" xml:space="preserve">│   │   ├── env.ts</text>
+<text x="18" y="518" fill="#cdd6f4" xml:space="preserve">│   │   └── index.ts</text>
+<text x="18" y="538" fill="#cdd6f4" xml:space="preserve">│   ├── context</text>
+<text x="18" y="558" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="578" fill="#cdd6f4" xml:space="preserve">│   │   └── index.ts</text>
+<text x="18" y="598" fill="#cdd6f4" xml:space="preserve">│   ├── hooks</text>
+<text x="18" y="618" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="638" fill="#cdd6f4" xml:space="preserve">│   │   ├── index.ts</text>
+<text x="18" y="658" fill="#cdd6f4" xml:space="preserve">│   │   └── useInventory.ts</text>
+<text x="18" y="678" fill="#cdd6f4" xml:space="preserve">│   ├── pages</text>
+<text x="18" y="698" fill="#cdd6f4" xml:space="preserve">│   │   ├── InventoryPage.tsx</text>
+<text x="18" y="718" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="738" fill="#cdd6f4" xml:space="preserve">│   │   └── index.ts</text>
+<text x="18" y="758" fill="#cdd6f4" xml:space="preserve">│   ├── services</text>
+<text x="18" y="778" fill="#cdd6f4" xml:space="preserve">│   │   ├── supabase</text>
+<text x="18" y="798" fill="#cdd6f4" xml:space="preserve">│   │   │   ├── README.md</text>
+<text x="18" y="818" fill="#cdd6f4" xml:space="preserve">│   │   │   ├── client.ts</text>
+<text x="18" y="838" fill="#cdd6f4" xml:space="preserve">│   │   │   └── index.ts</text>
+<text x="18" y="858" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="878" fill="#cdd6f4" xml:space="preserve">│   │   ├── index.ts</text>
+<text x="18" y="898" fill="#cdd6f4" xml:space="preserve">│   │   └── inventoryService.ts</text>
+<text x="18" y="918" fill="#cdd6f4" xml:space="preserve">│   ├── types</text>
+<text x="18" y="938" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="958" fill="#cdd6f4" xml:space="preserve">│   │   ├── index.ts</text>
+<text x="18" y="978" fill="#cdd6f4" xml:space="preserve">│   │   └── inventory.ts</text>
+<text x="18" y="998" fill="#cdd6f4" xml:space="preserve">│   ├── utils</text>
+<text x="18" y="1018" fill="#cdd6f4" xml:space="preserve">│   │   ├── README.md</text>
+<text x="18" y="1038" fill="#cdd6f4" xml:space="preserve">│   │   └── index.ts</text>
+<text x="18" y="1058" fill="#cdd6f4" xml:space="preserve">│   ├── App.tsx</text>
+<text x="18" y="1078" fill="#cdd6f4" xml:space="preserve">│   ├── index.css</text>
+<text x="18" y="1098" fill="#cdd6f4" xml:space="preserve">│   ├── main.tsx</text>
+<text x="18" y="1118" fill="#cdd6f4" xml:space="preserve">│   └── vite-env.d.ts</text>
+<text x="18" y="1138" fill="#cdd6f4" xml:space="preserve">├── .env.example</text>
+<text x="18" y="1158" fill="#cdd6f4" xml:space="preserve">├── .gitignore</text>
+<text x="18" y="1178" fill="#cdd6f4" xml:space="preserve">├── .oxlintrc.json</text>
+<text x="18" y="1198" fill="#cdd6f4" xml:space="preserve">├── ARCHITECTURE.md</text>
+<text x="18" y="1218" fill="#cdd6f4" xml:space="preserve">├── README.md</text>
+<text x="18" y="1238" fill="#cdd6f4" xml:space="preserve">├── index.html</text>
+<text x="18" y="1258" fill="#cdd6f4" xml:space="preserve">├── package.json</text>
+<text x="18" y="1278" fill="#cdd6f4" xml:space="preserve">├── tsconfig.app.json</text>
+<text x="18" y="1298" fill="#cdd6f4" xml:space="preserve">├── tsconfig.json</text>
+<text x="18" y="1318" fill="#cdd6f4" xml:space="preserve">├── tsconfig.node.json</text>
+<text x="18" y="1338" fill="#cdd6f4" xml:space="preserve">└── vite.config.ts</text>
+<text x="18" y="1358" fill="#cdd6f4" xml:space="preserve"></text>
+<text x="18" y="1378" fill="#cdd6f4" xml:space="preserve">17 directories, 47 files</text>
+</svg>
